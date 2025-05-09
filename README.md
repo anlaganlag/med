@@ -1,1 +1,1 @@
-# med
+# med for ai
