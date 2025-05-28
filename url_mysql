@@ -1,0 +1,18 @@
+            "MySQL": {
+              "command": "npx",
+              "args": [
+                "mcprunner",
+                "MYSQL_HOST=数据库地址",
+                "MYSQL_PORT=数据库端口",
+                "MYSQL_USER=访问用户名",
+                "MYSQL_PASS=访问密码",
+                "MYSQL_DB=数据库名",
+                "ALLOW_INSERT_OPERATION=true",
+                "ALLOW_UPDATE_OPERATION=true",
+                "ALLOW_DELETE_OPERATION=false",
+                "--",
+                "npx",
+                "-y",
+                "@benborla29/mcp-server-mysql"
+              ]
+            },
